@@ -14,7 +14,15 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx/api": ["libs/api/src/index.ts"],
+      "@nx/components": ["libs/components/src/index.ts"],
+      "@nx/locales": ["libs/locales/src/index.ts"],
+      "@nx/models": ["libs/models/src/index.ts"],
+      "@nx/scss": ["libs/scss/src/index.ts"],
+      "@nx/stores": ["libs/stores/src/index.ts"],
+      "@nx/utils": ["libs/utils/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
