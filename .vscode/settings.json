@@ -1,0 +1,43 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "eslint.validate": ["javascript", "vue", "typescript", "html", "pug"],
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  // "[vue]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "yaml.schemas": {
+    "file:///Users/user/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": true,
+  "atlascode.jira.enabled": false,
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  "scss.lint.unknownAtRules": "ignore",
+  "git.autofetch": true,
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "nxConsole.showNodeVersionOnStartup": false
+  // "[javascript]": {
+  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[vue]": {
+  //     "editor.defaultFormatter": "octref.vetur"
+  // },
+  // "[json]": {
+  //     "editor.defaultFormatter": "vscode.json-language-features"
+  // }
+}

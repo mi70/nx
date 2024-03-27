@@ -1,9 +1,24 @@
+<template>
+<div class="center">
+  <h3>Public stores</h3>
+  {{ account }}
+  <h3>Private stores</h3>
+  {{ infoAccount }}
+</div>
+</template>
+
 <script setup lang="ts">
-import NxWelcome from '../app/NxWelcome.vue';
+import { useMemberInfo } from '@nx/stores';
+import { usePrivateInfo } from '../stores/testStore';
+
+const member = useMemberInfo();
+const info = usePrivateInfo()
+const { account } = storeToRefs(member);
+const {infoAccount} = storeToRefs(info)
 </script>
 
-<template>
-  <main>
-    <NxWelcome />
-  </main>
-</template>
+<style scoped>
+.center{
+  text-align:center;
+}
+</style>

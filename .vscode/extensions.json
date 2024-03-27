@@ -5,6 +5,22 @@
     "dbaeumer.vscode-eslint",
     "editorconfig.editorconfig",
     "ms-vscode.vscode-typescript-next",
-    "vue.volar"
+    "akamud.vscode-theme-onedark",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "aaron-bond.better-comments",
+    "dzhavat.bracket-pair-toggler",
+    "oderwat.indent-rainbow",
+    "temir.javascriptsnippets",
+    "pkief.material-icon-theme",
+    "azemoh.one-monokai",
+    "christian-kohler.path-intellisense",
+    "alefragnani.project-manager",
+    "stylelint.vscode-stylelint",
+    "naumovs.theme-oceanicnext",
+    "wayou.vscode-todo-highlight",
+    "gruntfuggly.todo-tree",
+    "hollowtree.vue-snippets",
+    "jwy.vue-snippets-self"
   ]
 }
