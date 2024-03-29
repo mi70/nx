@@ -1,13 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router';
+const { locale } = useI18n();
 </script>
 
 <template>
   <header>
     <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
+      <RouterLink :to="{ name: 'home', params: { locale } }">Home</RouterLink>
+      <RouterLink :to="{ name: 'about', params: { locale } }">About</RouterLink>
     </nav>
+    <LangSelect />
   </header>
   <RouterView />
 </template>
@@ -16,6 +18,9 @@ import { RouterLink, RouterView } from 'vue-router';
 header {
   line-height: 1.5;
   max-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav > a {
