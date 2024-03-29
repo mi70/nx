@@ -2,7 +2,16 @@ import { createI18n } from 'vue-i18n';
 
 import { en } from '@nx/locales';
 import { tw } from '@nx/locales';
-const numberFormats = {
+// type NestedRecord<T> = Record<string, Record<string, Record<string, T>>>;
+interface NestedRecord<T> {
+  [key: string]: {
+    [key: string]: {
+      [key: string]: T;
+    };
+  };
+}
+
+const numberFormats: NestedRecord<string | number> = {
   tw: {
     percent: {
       style: 'percent',
